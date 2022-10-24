@@ -2,6 +2,7 @@
 /**
  * int _strlen(char *s);
  * @s: check
+ * Description: this program will return the lenght of a string
  *
  * Return: 0
  */
