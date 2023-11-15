@@ -1,19 +1,20 @@
+#include <stdio.h>
 #include "main.h"
 /**
- * _puts_recursion - print a string
- * @s:string
- * Return:void
+ * scretmessage - prints a secret message.
  */
-void _puts_recursion(char *s)
+void secretmessage(void)
 {
-if (*s)
-{
-	_putchar(*s);
-	_puts_recursion(s + 1);
+         printf("she locked away a secret, deep inside herself,\n);
+	 printf("something she once knew to be true... but chose to forget\n");
 }
-else
+/**
+ * main - Entry point of the program.
+ *
+ * Return: 0 on suceess.
+ */
+int main(void)
 {
-	_putchar('\n');
-}
-
+	secretmessage(); // calling the function
+	return 0;
 }
